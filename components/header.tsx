@@ -23,11 +23,11 @@ export default function Header() {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>+973 3948 0949 | +973 3948 0950</span>
+                <span>+973 3380 5353</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@esquirebusinesssolutions.com</span>
+                <span>info.bh@esqbusiness.com</span>
               </div>
             </div>
             <div className="text-xs">

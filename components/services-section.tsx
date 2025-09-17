@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { FileText, Calculator, Building, TrendingUp, Users, Briefcase } from "lucide-react"
+import Link from "next/link"
 
 const services = [
   {
@@ -84,9 +85,11 @@ export default function ServicesSection() {
         </div>
 
         <div className="text-center">
+        <Link href="/services" passHref legacyBehavior>
           <Button size="lg" className="bg-primary hover:bg-primary/90">
             View All Services
           </Button>
+        </Link>  
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@ import Footer from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { FileText, Calculator, Building, TrendingUp, Users, Briefcase, CheckCircle } from "lucide-react"
+import { FileText, Calculator, Building, TrendingUp, Users, Briefcase, CheckCircle, AlertTriangle, Search, Receipt, BookOpen, FileCheck } from "lucide-react"
 
 const services = [
   {
@@ -67,6 +67,41 @@ const services = [
       "Operational Excellence",
     ],
     details: "Transform your business operations with our comprehensive management consulting services.",
+  },
+  {
+    icon: AlertTriangle,
+    title: "CR Violation Removal",
+    description: "Expert assistance in removing Commercial Registration violations and ensuring compliance.",
+    features: ["Violation Assessment", "Documentation Support", "Regulatory Compliance", "Legal Guidance", "Resolution Services"],
+    details: "We help businesses resolve CR violations efficiently with our expertise in Bahrain's regulatory framework.",
+  },
+  {
+    icon: Search,
+    title: "Audit",
+    description: "Comprehensive audit services to ensure financial accuracy and compliance.",
+    features: ["Financial Audits", "Compliance Checks", "Risk Assessment", "Internal Controls", "Reporting"],
+    details: "Our audit services provide assurance on your financial statements and operational efficiency.",
+  },
+  {
+    icon: Receipt,
+    title: "VAT",
+    description: "Specialized VAT services including registration, returns, and advisory.",
+    features: ["VAT Registration", "VAT Returns Filing", "Compliance Advisory", "VAT Planning", "Refunds"],
+    details: "Navigate VAT requirements with our expert guidance tailored to Bahrain's regulations.",
+  },
+  {
+    icon: BookOpen,
+    title: "Book Keeping",
+    description: "Professional bookkeeping services to maintain accurate financial records.",
+    features: ["Transaction Recording", "Financial Statements", "Reconciliation", "Payroll Processing", "Tax Preparation"],
+    details: "Keep your books organized and compliant with our meticulous bookkeeping solutions.",
+  },
+  {
+    icon: FileCheck,
+    title: "NBR Registration and De-registration",
+    description: "Complete services for National Bank of Rwanda registration and de-registration processes.",
+    features: ["Registration Assistance", "Documentation Preparation", "Compliance Support", "De-registration Services", "Ongoing Advisory"],
+    details: "Streamline your NBR registration and de-registration with our expert support.",
   },
 ]
 

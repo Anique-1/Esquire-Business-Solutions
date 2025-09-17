@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Users, Award } from "lucide-react"
 
@@ -22,12 +23,16 @@ export default function HeroSection() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
-                Our Services
-              </Button>
-              <Button size="lg" variant="outline">
-                Get Started
-              </Button>
+              <Link href="/services" passHref legacyBehavior>
+                <Button as="a" size="lg" className="bg-primary hover:bg-primary/90">
+                  Our Services
+                </Button>
+              </Link>
+              <Link href="/contact" passHref legacyBehavior>
+                <Button as="a" size="lg" variant="outline">
+                  Get Started
+                </Button>
+              </Link>
             </div>
 
             {/* Key features */}

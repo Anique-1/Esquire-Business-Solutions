@@ -205,7 +205,7 @@ export default function WhyChooseUsPage() {
               Get Started Today
             </a>
             <a
-              href="tel:+97339480949"
+              href="tel:+973 3380 5353"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition-colors inline-flex items-center gap-2"
             >
               <Phone className="h-5 w-5" />

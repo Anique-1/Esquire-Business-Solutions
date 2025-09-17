@@ -11,19 +11,19 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["+973 3948 0949", "+973 3948 0950"],
+      details: ["+973 3380 5353"],
       action: "Call Now",
     },
     {
       icon: Mail,
       title: "Email Address",
-      details: ["info@esquirebusinesssolutions.com"],
+      details: ["info.bh@esqbusiness.com"],
       action: "Send Email",
     },
     {
       icon: MapPin,
       title: "Office Location",
-      details: ["Manama, Kingdom of Bahrain", "Gulf Region Coverage"],
+      details: ["Office No 32(202), Salahuddin Center, Road 402, Block 304 Kingdom of Bahrain"],
       action: "Get Directions",
     },
     {
@@ -44,6 +44,11 @@ export default function ContactPage() {
     "Accounting Services",
     "Risk Management",
     "Other (Please specify)",
+    "CR Violation Removal",
+    "Audit",
+    "VAT",
+    "Book Keeping",
+    "NBR Registration and De-registration",
   ]
 
   return (
@@ -209,25 +214,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <Card className="bg-gradient-to-br from-primary/5 to-accent/5">
-                <CardHeader>
-                  <CardTitle className="text-foreground">Emergency Support</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">
-                    Need urgent assistance with compliance deadlines or financial matters?
-                  </p>
-                  <div className="space-y-2">
-                    <Button variant="outline" className="w-full bg-transparent" size="sm">
-                      <Phone className="h-4 w-4 mr-2" />
-                      Call Emergency Line
-                    </Button>
-                    <p className="text-xs text-muted-foreground text-center">
-                      Available during business hours for urgent matters
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+              
 
               <Card>
                 <CardHeader>
@@ -264,14 +251,14 @@ export default function ContactPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+97339480949"
+              href="tel:+973 3380 5353"
               className="bg-white text-primary px-8 py-3 rounded-lg font-medium hover:bg-white/90 transition-colors inline-flex items-center gap-2"
             >
               <Phone className="h-5 w-5" />
               Call Now
             </a>
             <a
-              href="mailto:info@esquirebusinesssolutions.com"
+              href="mailto:info.bh@esqbusiness.com"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition-colors inline-flex items-center gap-2"
             >
               <Mail className="h-5 w-5" />

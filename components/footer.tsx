@@ -103,21 +103,20 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <div>
-                  <p>The Collective Hub</p>
-                  <p>Tubli Bay, Capital Manama</p>
+                  <p>Office No 32(202), Salahuddin</p>
+                  <p>Center, Road 402, Block 304</p>
                   <p>Kingdom of Bahrain</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 <div>
-                  <p>+973 3948 0949</p>
-                  <p>+973 3948 0950</p>
+                  <p>+973 3380 5353</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <p>info@esquirebusinesssolutions.com</p>
+                <p>info.bh@esqbusiness.com</p>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="h-4 w-4 flex-shrink-0" />
@@ -149,7 +148,7 @@ export default function Footer() {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-sm opacity-75">
           <p>
-            © 2024 Esquire Business Solutions. All rights reserved | Professional Auditing & VAT Services in Bahrain
+            © 2025 Esquire Business Solutions. All rights reserved | Professional Auditing & VAT Services in Bahrain
           </p>
         </div>
       </div>

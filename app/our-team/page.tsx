@@ -3,42 +3,47 @@ import Footer from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Users, Award, BookOpen, TrendingUp } from "lucide-react"
+import Image from "next/image"
 
 export default function OurTeamPage() {
   const teamMembers = [
     {
-      name: "Ahmed Al-Mahmood",
-      position: "Managing Partner & Senior Auditor",
+      name: "Ravi.B Soni",
+      position: "COO Director",
       qualifications: ["CPA", "ACCA", "MBA"],
       experience: "15+ years",
       specialization: "Corporate Auditing & Financial Advisory",
       description:
         "Leading expert in corporate governance and financial risk management with extensive experience in GCC markets.",
+      image: "/ravi image.jpeg",
     },
     {
-      name: "Sarah Johnson",
-      position: "Senior Tax Consultant",
+      name: "Muhammad Ahmad",
+      position: "SSenior associate",
       qualifications: ["CTA", "ACCA", "MSc Taxation"],
       experience: "12+ years",
       specialization: "VAT & Corporate Tax Planning",
       description:
         "Specialized in Bahrain VAT regulations and international tax compliance with proven track record in tax optimization.",
+      image: "/ahmad image.jpeg",
     },
     {
-      name: "Mohammed Hassan",
-      position: "Financial Controller",
+      name: "Nikhil George Eapen",
+      position: "Senior Manager",
       qualifications: ["CMA", "ACCA", "BSc Accounting"],
       experience: "10+ years",
       specialization: "Management Accounting & Business Analysis",
       description: "Expert in financial planning, budgeting, and performance analysis for SMEs and large corporations.",
+      image: "/ceo-Photoroom.png",
     },
     {
-      name: "Fatima Al-Zahra",
-      position: "Audit Manager",
+      name: "Syeda Bismah",
+      position: "Associate",
       qualifications: ["ACCA", "CIA", "BSc Finance"],
       experience: "8+ years",
       specialization: "Internal Audit & Risk Assessment",
       description: "Focused on internal controls, risk management, and compliance auditing across various industries.",
+      image: "/placeholder-user.jpg",
     },
   ]
 
@@ -107,9 +112,13 @@ export default function OurTeamPage() {
               >
                 <CardContent className="p-8">
                   <div className="flex items-start gap-4 mb-6">
-                    <div className="bg-primary/10 p-3 rounded-full">
-                      <Award className="h-6 w-6 text-primary" />
-                    </div>
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      width={48}
+                      height={48}
+                      className="rounded-full"
+                    />
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-foreground mb-1">{member.name}</h3>
                       <p className="text-primary font-medium mb-2">{member.position}</p>
@@ -158,7 +167,7 @@ export default function OurTeamPage() {
               Get in Touch
             </a>
             <a
-              href="tel:+97339480949"
+              href="tel:+973 3380 5353"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition-colors"
             >
               Call Now
