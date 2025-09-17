@@ -10,8 +10,6 @@ export default function OurTeamPage() {
     {
       name: "Ravi.B Soni",
       position: "COO Director",
-      qualifications: ["CPA", "ACCA", "MBA"],
-      experience: "15+ years",
       specialization: "Corporate Auditing & Financial Advisory",
       description:
         "Leading expert in corporate governance and financial risk management with extensive experience in GCC markets.",
@@ -20,8 +18,6 @@ export default function OurTeamPage() {
     {
       name: "Muhammad Ahmad",
       position: "SSenior associate",
-      qualifications: ["CTA", "ACCA", "MSc Taxation"],
-      experience: "12+ years",
       specialization: "VAT & Corporate Tax Planning",
       description:
         "Specialized in Bahrain VAT regulations and international tax compliance with proven track record in tax optimization.",
@@ -30,8 +26,6 @@ export default function OurTeamPage() {
     {
       name: "Nikhil George Eapen",
       position: "Senior Manager",
-      qualifications: ["CMA", "ACCA", "BSc Accounting"],
-      experience: "10+ years",
       specialization: "Management Accounting & Business Analysis",
       description: "Expert in financial planning, budgeting, and performance analysis for SMEs and large corporations.",
       image: "/ceo-Photoroom.png",
@@ -39,8 +33,6 @@ export default function OurTeamPage() {
     {
       name: "Syeda Bismah",
       position: "Associate",
-      qualifications: ["ACCA", "CIA", "BSc Finance"],
-      experience: "8+ years",
       specialization: "Internal Audit & Risk Assessment",
       description: "Focused on internal controls, risk management, and compliance auditing across various industries.",
       image: "/placeholder-user.jpg",
@@ -122,22 +114,10 @@ export default function OurTeamPage() {
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-foreground mb-1">{member.name}</h3>
                       <p className="text-primary font-medium mb-2">{member.position}</p>
-                      <div className="flex flex-wrap gap-2 mb-3">
-                        {member.qualifications.map((qual, i) => (
-                          <Badge key={i} variant="secondary" className="text-xs">
-                            {qual}
-                          </Badge>
-                        ))}
-                      </div>
                     </div>
                   </div>
 
                   <div className="space-y-3">
-                    <div className="flex items-center gap-2 text-sm">
-                      <TrendingUp className="h-4 w-4 text-accent" />
-                      <span className="font-medium">Experience:</span>
-                      <span className="text-muted-foreground">{member.experience}</span>
-                    </div>
                     <div className="flex items-center gap-2 text-sm">
                       <BookOpen className="h-4 w-4 text-secondary" />
                       <span className="font-medium">Specialization:</span>

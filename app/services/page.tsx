@@ -76,20 +76,6 @@ const services = [
     details: "We help businesses resolve CR violations efficiently with our expertise in Bahrain's regulatory framework.",
   },
   {
-    icon: Search,
-    title: "Audit",
-    description: "Comprehensive audit services to ensure financial accuracy and compliance.",
-    features: ["Financial Audits", "Compliance Checks", "Risk Assessment", "Internal Controls", "Reporting"],
-    details: "Our audit services provide assurance on your financial statements and operational efficiency.",
-  },
-  {
-    icon: Receipt,
-    title: "VAT",
-    description: "Specialized VAT services including registration, returns, and advisory.",
-    features: ["VAT Registration", "VAT Returns Filing", "Compliance Advisory", "VAT Planning", "Refunds"],
-    details: "Navigate VAT requirements with our expert guidance tailored to Bahrain's regulations.",
-  },
-  {
     icon: BookOpen,
     title: "Book Keeping",
     description: "Professional bookkeeping services to maintain accurate financial records.",
